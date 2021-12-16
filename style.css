@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Kid";
+    src: url("assets/font/Kiddos-Demo.ttf") format('woff');
+   }
+  
+
+body {
+    background-color: #FECB70;
+}
+
+.top, .mid, .bot {
+    position: relative;
+}
+
+.top {
+    width: 100vw;
+    background-color: violet;
+    height: 20vh;
+}
+
+.mid {
+    width: 100vw;
+    background-color: blue;
+    height: 30vh;
+}
+
+.bot {
+    width: 100vw;
+    background-color: green;
+    height: 50vh;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/* --------------------- */
+
+
+.logo {
+    width: 25vw;
+}
+
+.start {
+    color: #2167BC;
+    font-size: 20vw;
+    font-family: Kid;
+    background-color: #F4C201;
+    padding: 10px 60px;
+    border-radius: 60px;
+}
+
+
